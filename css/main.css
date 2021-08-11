@@ -52,7 +52,13 @@ p {
 	padding: 1.125em 2.25em;
 	margin-top: 4em;
 	border-radius: 35px;
+	border: 2px solid var(--clr-secondary-very-light-gray);
 	background: var(--clr-secondary-very-light-gray);
+}
+.button:hover, .button:active {
+	background: transparent;
+	color: var(--clr-secondary-very-light-gray);
+	cursor: pointer;
 }
 /*Colors*/
 .sedans {
