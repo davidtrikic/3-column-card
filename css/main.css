@@ -1,37 +1,93 @@
+/*General rules*/
+:root {
+	--clr-primary-bright-orange: hsl(31, 77%, 52%);
+	--clr-primary-dark-cyan: hsl(184, 100%, 22%);
+	--clr-primary-very-dark-cyan: hsl(179, 100%, 13%);
+	--clr-secondary-transparent-white: hsla(0, 0%, 100%, 0.75);
+	--clr-secondary-very-light-gray: hsl(0, 0%, 95%);
+}
+body {
+	font-family: 'Lexend Deca', sans-serif;;
+	font-size: 15px;
+	background: var(--clr-secondary-very-light-gray);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 6em 1.666em;
+	position: relative;
+	color: var(--clr-secondary-transparent-white);
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+h2 {
+	font-family: 'Big Shoulders Display', cursive;
+	text-transform: uppercase;
+	font-size: 2.25rem;
+	margin-bottom: 1em;
+	color: #FFF;
+}
+p {
+	line-height: 1.75;
+}
+/*Layout*/
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	max-width: 930px;
+	border-radius: 8px;
+	overflow: hidden;
+}
+.card {
+	flex-basis: 310px;
+	flex-grow: 1;
+	padding: 3.333em;
+}
+
+.button {
+	display: inline-block;
+	padding: 1.125em 2.25em;
+	margin-top: 4em;
+	border-radius: 35px;
+	background: var(--clr-secondary-very-light-gray);
+}
+/*Colors*/
+.sedans {
+	background: var(--clr-primary-bright-orange);
+}
+.sedans a {
+	color: var(--clr-primary-bright-orange);
+}
+.suvs {
+	background: var(--clr-primary-dark-cyan);
+}
+.suvs a {
+	color: var(--clr-primary-dark-cyan);
+}
+.luxury {
+	background: var(--clr-primary-very-dark-cyan);
+}
+.luxury a {
+	color: var(--clr-primary-very-dark-cyan);
+}
+/*Footer*/
+.attribution { 
+	position: absolute;
+	bottom: 10px;
+	left: 0;
+	right: 0;
+	font-size: 11px; 
+	text-align: center; 
+	color: #333;
+}
+.attribution a { 
+	color: hsl(228, 45%, 44%); 
+}
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
